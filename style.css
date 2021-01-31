@@ -14,8 +14,8 @@ body {
   --card-bg: #3d3d3d;
   --fire: #e4604d;
   --grass: #9dd465;
-  --eletric: #f9e45f;
-  --water: #c3cd4a;
+  --electric: #f9e45f;
+  --water:#83abd7;
   --ground: #e4c967;
   --rock: #cabb7b;
   --fairy: #eeb2fa;
@@ -42,11 +42,11 @@ body {
     background-color: var(--grass)
 }
 
-.bg-eletric {
-    background: linear-gradient( to top right, var(--eletric), var(--card-bg) 25%);
+.bg-electric {
+    background: linear-gradient( to top right, var(--electric), var(--card-bg) 25%);
 }
-.eletric {
-    background-color: var(--eletric)
+.electric {
+    background-color: var(--electric)
 }
 
 .bg-water {
